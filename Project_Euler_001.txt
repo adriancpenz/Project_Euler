@@ -1,0 +1,12 @@
+Problem Statement:
+
+"If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+Find the sum of all the multiples of 3 or 5 below 1000."
+
+The basic algorithm iterates from 1 to 1000 and examines, for every number, whether it is divisible by 3 or 5. If this is the case, the number is added to a total.
+The runtime of the basic algorithm is of order 0.01 sec.
+
+The optimized algorithm uses the principle of inclusion-exclusion and the general formula for the sum of linear sequences to calculate the same value without any iteration.
+The runtime of the optimized algorithm is of the order of 10^-5 sec. 
+
+I would give this problem a difficulty rating of 1/10. All the required mathematical concepts were relatively basic and the code-implementation also did not require any extensive coding knowledge. 
